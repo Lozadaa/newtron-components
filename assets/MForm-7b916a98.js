@@ -1,0 +1,5 @@
+import{j as t}from"./jsx-runtime-ffb262ed.js";import{M as n,T as s}from"./index-96f8ec96.js";import{u as m}from"./index-a1cf9e47.js";import"./index-76fb7be0.js";import"./_commonjsHelpers-de833af9.js";import"./iframe-8f51d736.js";import"../sb-preview/runtime.js";import"./inheritsLoose-2f439779.js";import"./index-d3ea75b5.js";import"./index-d37d4223.js";import"./extends-98964cd2.js";import"./assertThisInitialized-081f9914.js";import"./index-13a69483.js";import"./index-356e4a49.js";function e(r){return t.jsxs(t.Fragment,{children:[t.jsx(n,{title:"MForm"}),`
+`,t.jsx(s,{children:"MForm"}),`
+`,t.jsxs("p",{children:[t.jsx("b",{children:"MForm"})," is a tunned wrapper of react hook form."]}),`
+`,t.jsx("p",{children:"We make MForm to create a fast and easy way to manage form, all types of forms statics or dynamics. "})]})}function g(r={}){const{wrapper:o}=Object.assign({},m(),r.components);return o?t.jsx(o,Object.assign({},r,{children:t.jsx(e,r)})):e()}export{g as default};
+//# sourceMappingURL=MForm-7b916a98.js.map
