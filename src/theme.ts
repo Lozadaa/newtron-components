@@ -9,7 +9,7 @@ export type ColorType = {
   [key: string]: string,
 }
 
-const theme = (colorsProp: ColorType = defaultColors) => createTheme({
+const theme = (colorsProp = defaultColors) => createTheme({
   palette: {
     primary: {
       main: colorsProp.primary,
