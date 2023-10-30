@@ -1,0 +1,21 @@
+import { Meta, ColorPalette, ColorItem } from '@storybook/blocks';
+import theme from '../../../theme';
+
+<Meta title="Colors" />
+
+<ColorPalette>
+  <ColorItem 
+    title="theme.color.primary" 
+    subtitle="Primary" 
+    colors={{ 
+      Main: theme.palette.primary.main 
+    }} 
+  />
+  <ColorItem 
+    title="theme.color.secondary" 
+    subtitle="Secondary" 
+    colors={{ 
+      Main: theme.palette.secondary.main 
+    }} 
+  />
+</ColorPalette>
