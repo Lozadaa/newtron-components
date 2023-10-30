@@ -1,6 +1,6 @@
 # Newtron Components
 
-![Newtron Components Logo](https://example.com/newtron-components-logo.png)
+<img src="assets/logo.png" alt="Logo" width="100"/>
 
 Newtron Components is a collection of reusable React components designed to simplify the development of user interfaces wrapping the MUI components. This library is accompanied by Storybook, providing an interactive way to explore and experiment with the components.
 
