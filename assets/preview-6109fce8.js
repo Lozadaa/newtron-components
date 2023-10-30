@@ -1,0 +1,2 @@
+import{j as r}from"./jsx-runtime-ffb262ed.js";import{t as e}from"./theme-c764b217.js";import{T as t}from"./emotion-element-c39617d8.browser.esm-02814d88.js";import"./index-76fb7be0.js";import"./_commonjsHelpers-de833af9.js";import"./createTheme-3150df99.js";import"./extends-98964cd2.js";const d={parameters:{actions:{argTypesRegex:"^on[A-Z].*"},controls:{matchers:{color:/(background|color)$/i,date:/Date$/i}}},decorators:[o=>r.jsx(t,{theme:e(),children:r.jsx(o,{})})]};export{d as default};
+//# sourceMappingURL=preview-6109fce8.js.map
