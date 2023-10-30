@@ -9,9 +9,9 @@ Newtron Components is a collection of reusable React components designed to simp
 To get started with Newtron Components, you can install it via npm or yarn:
 
 ```bash
-npm install newtron-components
+npm install @lozadaa/newtron-components
 # or
-yarn add newtron-components
+yarn add @lozadaa/newtron-components
 ```
 
 ### Available Components
