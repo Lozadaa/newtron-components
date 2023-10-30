@@ -19,6 +19,9 @@ jobs:
       - name: Setup node
         uses: actions/setup-node@v3
 
+      - name: Yarn Canary version
+        run: yarn set version canary
+
       - name: Install dependencies
         run: yarn install --immutable
 
