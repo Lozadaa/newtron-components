@@ -16,16 +16,19 @@ jobs:
       - name: Setup node
         uses: actions/setup-node@v3
 
+      - name: Yarn Canary version
+        run: yarn set version canary
+
       - name: Install dependencies
         run: yarn install --immutable
 
       - name: Build
-        run: yarn storybook:build
+        run: yarn build:storybook
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: docs
+          folder: storybook-static
           clean: true
           clean-exclude: |
             .nojekyll
